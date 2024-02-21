@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.choiceBtn{
+    height: 50px;
+    width: 150px;
+    margin: 0 10px 30px 0;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.choiceBtn:hover{
+    background-color: lightskyblue;
+}
+#gameDiv{
+    height: 90vh;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+.gameTitle{
+    color: darkmagenta;
+    font-size: 50px;
+}
+.scoreDisplay{
+    font-size: 30px;
+}
+#playerScoreDisplay{
+    color: green;
+}
+
+#computerScoreDisplay{
+    color: red;
+}
+
